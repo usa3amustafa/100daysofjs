@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fefae0;
+}
+
+/* utilities */
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1140px;
+}
+
+.container-md {
+  width: 65%;
+  margin: auto;
+  max-width: 920px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+
+/* header  */
+header {
+  padding: 1em 0;
+  background-color: #ffe6a7;
+}
+.logo {
+  padding: 0 0.7em;
+  transition: background-color 0.2s ease-in-out;
+}
+.logo:hover {
+  background-color: #fdf3b1;
+}
+.logo-1 {
+  font-family: 'Otomanopee One', sans-serif;
+  color: #ef233c;
+  font-weight: 300;
+}
+.logo-2 {
+  color: #0077b6;
+  font-weight: 800;
+}
+.logo-3 {
+  color: #ffb703;
+  font-weight: 300;
+}
+.logo-4 {
+  color: #2d6a4f;
+  font-weight: 800;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 2em;
+  flex: 1;
+}
+
+.fab {
+  font-size: 1.7rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.fa-facebook {
+  color: #4267b2;
+}
+.fa-instagram {
+  color: #e1306c;
+}
+.fa-github {
+  color: #4078c0;
+}
+.fab:hover {
+  color: #370617;
+}
+
+/* section start */
+
+.day {
+  background-color: #ffe6a7;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding: 1.3em 4em 1.3em 4em;
+  color: #0077b6;
+  line-height: 1;
+}
+.day h1 {
+  font-size: 1.9rem;
+}
+.day p {
+  font-size: 0.8rem;
+  color: #d11818;
+}
+.summary {
+  margin: 0.7em 0 0 0;
+  background-color: #fefae0;
+  padding: 1em 0 1em 6em;
+  color: #2d6a4f;
+  line-height: 1.5;
+}
+.summary ul {
+  list-style: disc;
+}
+
+/* section end */
+
+/* footer start */
+
+footer h2,
+h1 {
+  display: inline-block;
+}
+footer h2 {
+  color: #434b33;
+}
+footer {
+  text-align: center;
+  padding: 2em 0;
+  background-color: #e9edc9;
+}
+footer h3 .logo-3 {
+  color: #b69121;
+}
+
+/* footer end */
